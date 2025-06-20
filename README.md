@@ -6,7 +6,7 @@ This repository provides a patched version of the Linux kernel module for the **
 - Plug-and-play support for LUA3-U2-AGT on modern Linux distributions
 - Includes vendor/product ID patch for 0x0411:0x01A8
 - DKMS compatible (optional)
-- Tested on Ubuntu 20.04 / 22.04
+- Tested on Ubuntu 24.04
 
 ## 📦 Installation
 
