@@ -1,0 +1,48 @@
+//======================================================================
+// ASIX AX88178 Windows 8/7 Drivers Setup Program
+// Revision History
+//
+// This document describes the major changes, additions and bug fixes made 
+// to the program between released versions. 
+//======================================================================
+
+Version 2.0.2.0 (2013-07-24)
+1. This setup program includes the following AX88178 Windows 8/7 32-bit/64-bit WHCK drivers.
+   AX88178 Windows 8/7 32-bit WHCK driver v1.12.6.0
+   AX88178 Windows 8/7 64-bit WHCK driver v1.14.6.0 
+2. Added to support Windows 8.1 systems.
+
+Version 2.0.1.0 (2013-03-07)
+1. This setup program includes the following AX88178 Windows 8/7 32-bit/64-bit WHCK drivers.
+   AX88178 Windows 8/7 32-bit WHCK driver v1.12.5.0
+   AX88178 Windows 8/7 64-bit WHCK driver v1.14.5.0 
+  
+Version 2.0.0.0 (2012-10-26)
+1. This setup program includes the following AX88178 Windows 7 32-bit/64-bit drivers.
+   AX88178 Windows 7 32-bit driver v1.12.4.0 (Windows 7 32-bit WHCK dirver)
+   AX88178 Windows 7 64-bit driver v1.14.4.0 (Windows 7 64-bit WHCK dirver)
+2. Modified the setup program to support Windows 7 & 8 32-bit/64-bit systems.
+
+Version 1.0.1.0 (2011-01-28)
+1. This setup program includes the following AX88178 Windows 7 32-bit/64-bit drivers.
+   AX88178 Windows 7 32-bit driver v1.12.3.8 (Windows 7 32-bit WHQL dirver)
+   AX88178 Windows 7 64-bit driver v1.14.3.8 (Windows 7 64-bit WHQL dirver)
+
+Version 1.0.0.0 (2009-10-14)
+1. This setup program includes the following AX88178 Windows 7 32-bit/64-bit drivers.
+   AX88178 Windows 7 32-bit driver v1.12.3.7 (Windows 7 32-bit WHQL dirver)
+   AX88178 Windows 7 64-bit driver v1.14.3.7 (Windows 7 64-bit WHQL dirver)
+2. Built the setup program using InstallShield2010 from this version.
+  
+Version 0.0.0.1 (2009-08-28)
+1. This setup program includes the following AX88178 Windows 7 32-bit/64-bit drivers.
+   AX88178 Windows 7 32-bit driver v1.12.3.2 (Initial release for Windows 7 32-bit system)
+   AX88178 Windows 7 64-bit driver v1.14.3.2 (Initial release for Windows 7 64-bit system)
+
+
+Note:
+=====
+Before run the setup program to install newer driver, please uninstall the older driver
+and setup program that user had installed before. User can check the list in "Control Panel" -> "Programs" ->
+"Programs and Features". If there is a AX88178 driver in the list, uninstall it
+before run the setup program.
