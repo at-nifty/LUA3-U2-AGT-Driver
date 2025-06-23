@@ -1,8 +1,10 @@
 # LUA3-U2-AGT-Driver
 
 This repository provides a patched version of the Linux kernel module for the **Buffalo LUA3-U2-AGT** USB Ethernet adapter, which is based on the **ASIX AX88178** chipset.
+
 Filed by https://web.archive.org/web/20200907121259/http://www.asix.com.tw/products.php?op=pItemdetail&PItemID=84;71;100&PLine=71
 
+![AXFamily Spec](https://github.com/at-nifty/LUA3-U2-AGT-Driver/blob/main/AX%20Family%20Spec.jpg?raw=true)
 ## ✅ Features
 - Plug-and-play support for LUA3-U2-AGT on modern Linux distributions
 - Includes vendor/product ID patch for 0x0411:0x01A8
