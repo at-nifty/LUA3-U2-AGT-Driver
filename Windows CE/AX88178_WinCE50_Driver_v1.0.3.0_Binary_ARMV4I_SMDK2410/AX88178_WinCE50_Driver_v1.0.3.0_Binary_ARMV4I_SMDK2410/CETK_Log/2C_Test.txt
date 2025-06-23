@@ -1,0 +1,51 @@
+==========================================
+WIndows CE 5.0 Test Kit (CETK 5.0) 
+Two-Card Network Card Miniport Driver Test
+==========================================
+
+REM tux -o -d ndt_2c -c "-s support_adapter -t test_adapter ..."
+REM 
+REM Parameters:
+REM 
+REM -t adapter : Adapter to test (e.g. NE20001)
+REM -s adapter : Support adapter (e.g. NE20001@KARELD01)
+REM -nounbind  : Do not unbind protocols from the test adapter
+REM -cancel    : Check result for 1c_CancelSend (default false)
+REM -nostress  : Skip stress tests (default false)
+REM 
+REM Adapter name is in form 'adapter@IP' for remote adapter
+REM and in form 'adapter' for local one. E.g. NE20001@196.23.3.3
+REM 
+REM Do not use the Vmini network interface with this test. 
+REM The Vmini interface disables your KITL connection to the Windows CE¡Vbased device.
+REM 
+REM Miniport NDIS Adapters
+REM 
+REM Name                 Medium
+REM ======================================
+REM AX881781             Ethernet 802.3
+REM VMINI1               Ethernet 802.3
+
+tux -o -d ndt_2c -c "-t AX881781 -s AX881781"
+
+
+================================================================================
+Test procedures:
+	1. Make sure the CETK Clientside.exe program is NOT currently running on
+	   your device.
+	2. Start Windows CE Test Kit (CETK) on the desktop machine.
+	3. Select "Start client..." from the "Connection" menu.
+	4. On the "Device Connection" dialog, make sure the "Use Windows Sockets
+	   for the client/server communication." checkbox is NOT checked.
+	5. Click "Connect..." to get the connection to Windows CE target device.
+	6. On the "Select a Windows CE Device" dialog, select the device you are
+	   connecting to (typically "Default Device") and click OK.
+	7. Select "Windows CE Device Driver Test Kit" and click right mouse key 
+	   to select "Deselect All Tests".
+	8. Expand the "Ethernet" test items under "Windows CE Device Driver Test Kit".
+	9. Select "Two-Card Network Card Miniport Driver Test" and click right mouse key 
+	   to select "Edit Command Line...". Enter <tux -o -d ndt_2c -c "-t AX881781 -s AX881781">
+	   command on the Edit Command Line dialog and click OK.
+	10.Select "Windows CE Device Driver Test Kit" and click right mouse key 
+	   to select "Start Tests" to start the Ethernet testings.
+================================================================================

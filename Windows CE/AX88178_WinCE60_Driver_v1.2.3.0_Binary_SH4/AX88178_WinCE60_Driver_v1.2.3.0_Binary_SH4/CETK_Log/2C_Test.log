@@ -1,0 +1,1180 @@
+0475a986: ndt_2c Msg: Querying if test miniport is wireless
+0475a986: ndt_2c Msg: Miniport AX881781 is ** NOT Wireless-LAN **
+<TESTGROUP>
+
+*** ==================================================================
+*** SUITE INFORMATION
+***
+*** Suite Name:        N/A (built on the fly)
+*** Suite Description: N/A
+*** Number of Tests:   6
+*** ==================================================================
+
+*** ==================================================================
+*** SYSTEM INFORMATION
+***
+*** Date and Time:          05/04/2011  8:16 PM (Wednesday)
+***
+*** Device Name:            CEPC
+***
+*** OS Version:             6.00
+*** Build Number:           2217
+*** Platform ID:            3 "Windows CE"
+*** Version String:         ""
+***
+*** Processor Type:         0x000002AE (686) "Intel Pentium II"
+*** Processor Architecture: 0x0000     (0) "Intel"
+*** Page Size:              0x00001000 (4,096)
+*** Minimum App Address:    0x00010000 (65,536)
+*** Maximum App Address:    0x7FFFFFFF (2,147,483,647)
+*** Active Processor Mask:  0x00000001
+*** Number Of Processors:   1
+*** Allocation Granularity: 0x00010000 (65,536)
+*** Processor Level:        0x0003     (3)
+*** Processor Revision:     0x0004     (4)
+*** ==================================================================
+
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    26,353,664 bytes
+*** Memory Used:     13,389,824 bytes
+*** Memory Free:     12,963,840 bytes
+***
+*** Kernel Used:        589,824 bytes
+*** Water Mark:           2,987 pages
+***
+*** Store Total:     26,279,936 bytes
+*** Store Used:         405,504 bytes
+*** Store Free:      25,874,432 bytes
+*** ==================================================================
+
+BEGIN GROUP: ndt_2c.dll
+   <TESTCASE ID=1>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_SendPackets
+   *** Test ID:        1
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    32765
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_SendPackets", Threads=0, Seed=32765
+      0475a986: ndt_2c Msg: Start 2c_SendPackets test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: Set adapter filters
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 1 addresses
+      0475a986: ndt_2c Msg: Sent 300 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 300 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 1 addresses
+      0475a986: ndt_2c Msg: Sent 300 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 300 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 1 addresses
+      0475a986: ndt_2c Msg: Sent 300 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 300 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 2 addresses
+      0475a986: ndt_2c Msg: Sent 600 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 600 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 2 addresses
+      0475a986: ndt_2c Msg: Sent 600 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 600 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 2 addresses
+      0475a986: ndt_2c Msg: Sent 600 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 600 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 3 addresses
+      0475a986: ndt_2c Msg: Sent 900 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 900 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 3 addresses
+      0475a986: ndt_2c Msg: Sent 900 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 900 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 3 addresses
+      0475a986: ndt_2c Msg: Sent 900 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 900 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 4 addresses
+      0475a986: ndt_2c Msg: Sent 1200 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1200 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 4 addresses
+      0475a986: ndt_2c Msg: Sent 1200 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1200 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 4 addresses
+      0475a986: ndt_2c Msg: Sent 1200 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1200 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 5 addresses
+      0475a986: ndt_2c Msg: Sent 1500 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1500 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 5 addresses
+      0475a986: ndt_2c Msg: Sent 1500 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1500 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 5 addresses
+      0475a986: ndt_2c Msg: Sent 1500 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1500 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 6 addresses
+      0475a986: ndt_2c Msg: Sent 1800 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1800 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 6 addresses
+      0475a986: ndt_2c Msg: Sent 1800 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1800 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 6 addresses
+      0475a986: ndt_2c Msg: Sent 1800 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 1800 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 7 addresses
+      0475a986: ndt_2c Msg: Sent 2100 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2100 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 7 addresses
+      0475a986: ndt_2c Msg: Sent 2100 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2100 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 7 addresses
+      0475a986: ndt_2c Msg: Sent 2100 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2100 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_SendPackets", PASSED, Time=339.330
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_SendPackets
+   *** Test ID:        1
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    32765
+   *** Thread Count:   1
+   *** Execution Time: 0:05:39.330
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=2>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_ReceivePackets
+   *** Test ID:        2
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    8731
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_ReceivePackets", Threads=0, Seed=8731
+      0475a986: ndt_2c Msg: Start 2c_ReceivePackets test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: Set adapter filters
+      0475a986: ndt_2c Msg: Sending 300 packets with size 64 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 783 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 8 addresses
+      0475a986: ndt_2c Msg: Sent 2400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Received 2400 packets
+      0475a986: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_ReceivePackets", PASSED, Time=42.611
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_ReceivePackets
+   *** Test ID:        2
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    8731
+   *** Thread Count:   1
+   *** Execution Time: 0:00:42.611
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=3>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_FilterReceive
+   *** Test ID:        3
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    28550
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_FilterReceive", Threads=0, Seed=28550
+      0475a986: ndt_2c Msg: Start 2c_FilterReceive test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: Possible filter settings:
+      0475a986: ndt_2c Msg:   - Directed
+      0475a986: ndt_2c Msg:   - Broadcast
+      0475a986: ndt_2c Msg:   - Promiscuous
+      0475a986: ndt_2c Msg:   - Multicast
+      0475a986: ndt_2c Msg:   - All Multicast
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 1 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 2 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 3 properly didn't receive packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Setting receiving filters
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      0475a986: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      0475a986: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      0475a986: ndt_2c Msg: Start receiving
+      0475a986: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Instance 0 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 1 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 2 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 3 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 4 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 5 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 6 received expected 300 packets
+      0475a986: ndt_2c Msg: Instance 7 received expected 300 packets
+      0475a986: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_FilterReceive", PASSED, Time=291.625
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_FilterReceive
+   *** Test ID:        3
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    28550
+   *** Thread Count:   1
+   *** Execution Time: 0:04:51.625
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=4>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_MulticastReceive
+   *** Test ID:        4
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    27734
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_MulticastReceive", Threads=0, Seed=27734
+      0475a986: ndt_2c Msg: Start 1c_MulticastReceive test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: AX881781 driver supports 64 multicast addresses
+      0475a986: ndt_2c Msg: Add multicast addresses
+      0475a986: ndt_2c Msg: Set multicast filter
+      0475a986: ndt_2c Msg: Sending 10 packets on 8 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 80 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 64 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 640 packets
+      0475a986: ndt_2c Msg: Removing randomly 8 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 16 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 160 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 56 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 560 packets
+      0475a986: ndt_2c Msg: Removing randomly 8 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 24 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 240 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 48 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 480 packets
+      0475a986: ndt_2c Msg: Removing randomly 8 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 32 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 320 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 40 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 400 packets
+      0475a986: ndt_2c Msg: Removing randomly 8 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 40 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 400 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 32 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 320 packets
+      0475a986: ndt_2c Msg: Removing randomly 4 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 44 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 440 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 28 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 280 packets
+      0475a986: ndt_2c Msg: Removing randomly 4 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 48 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 480 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 24 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 240 packets
+      0475a986: ndt_2c Msg: Removing randomly 4 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 52 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 520 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 20 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 200 packets
+      0475a986: ndt_2c Msg: Removing randomly 4 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 56 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 560 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 16 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 160 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 57 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 570 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 15 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 150 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 58 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 580 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 14 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 140 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 59 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 590 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 13 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 130 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 60 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 600 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 12 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 120 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 61 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 610 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 11 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 110 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 62 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 620 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 10 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 100 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 63 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 630 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 9 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 90 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 64 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 640 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 8 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 80 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 65 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 650 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 7 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 70 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 66 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 660 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 6 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 60 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 67 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 670 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 5 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 50 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 68 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 680 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 4 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 40 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 69 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 690 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 3 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 30 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 70 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 700 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 2 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 20 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 71 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 710 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Sending 10 packets on 1 multicast addresses
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly received 10 packets
+      0475a986: ndt_2c Msg: Removing randomly 1 multicast addresses
+      0475a986: ndt_2c Msg: Sending 10 packets on 72 unused multicast addresses
+      0475a986: ndt_2c Msg: Sent 720 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Properly didn't receive packets
+      0475a986: ndt_2c Msg: Closing adapters
+   END TEST: "2c_MulticastReceive", PASSED, Time=223.019
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_MulticastReceive
+   *** Test ID:        4
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    27734
+   *** Thread Count:   1
+   *** Execution Time: 0:03:43.019
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=5>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_StressSend
+   *** Test ID:        5
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    25070
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_StressSend", Threads=0, Seed=25070
+      0475a986: ndt_2c Msg: Start 2c_StressSend test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: Seting direct receive filters
+      0475a986: ndt_2c Msg: Test Pass #0
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7585789 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7725789 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #1
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7630184 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7770184 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #2
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7576908 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7716908 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #3
+      0475a986: ndt_2c Msg: Start sending 100 packets
+      0475a986: ndt_2c Msg: Sent 100 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 100 packets with total size 8250 bytes in 120 ms
+      0475a986: ndt_2c Msg: Test: Recv 100 packets with total size 4600 bytes in 120 ms
+      0475a986: ndt_2c Msg: Support: Recv 100 packets with total size 9650 bytes in 120 ms
+      0475a986: ndt_2c Msg: Support: Sent 100 packets with total size 4600 bytes in 120 ms
+      0475a986: ndt_2c Msg: Test Pass #4
+      0475a986: ndt_2c Msg: Start sending 53 packets
+      0475a986: ndt_2c Msg: Sent 53 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 53 packets with total size 3127 bytes in 60 ms
+      0475a986: ndt_2c Msg: Test: Recv 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Support: Recv 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Support: Sent 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Test Pass #5
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 1000000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 1140000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #6
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7696009 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7836009 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #7
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7712857 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 0 packets with total size 0 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7852857 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Sent 0 packets with total size 0 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #8
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7627168 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7767168 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7767168 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7767168 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #9
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 600000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 740000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Unbinding adapters
+      0475a986: ndt_2c Msg: Closing adapters
+   END TEST: "2c_StressSend", PASSED, Time=122.937
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_StressSend
+   *** Test ID:        5
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    25070
+   *** Thread Count:   1
+   *** Execution Time: 0:02:02.937
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=6>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      2c_StressReceive
+   *** Test ID:        6
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    16370
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_StressReceive", Threads=0, Seed=16370
+      0475a986: ndt_2c Msg: Start 2c_StessReceive test
+      0475a986: ndt_2c Msg: The test adapter is AX881781
+      0475a986: ndt_2c Msg: The support adapter is AX881781
+      0475a986: ndt_2c Msg: Opening adapters
+      0475a986: ndt_2c Msg: Binding adapters
+      0475a986: ndt_2c Msg: Get basic adapters info
+      0475a986: ndt_2c Msg: Seting direct receive filters
+      0475a986: ndt_2c Msg: Test Pass #0
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7661517 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7801517 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test Pass #1
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7696059 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7836059 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #2
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7663204 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7803204 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #3
+      0475a986: ndt_2c Msg: Start sending 100 packets
+      0475a986: ndt_2c Msg: Sent 100 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 100 packets with total size 8250 bytes in 120 ms
+      0475a986: ndt_2c Msg: Support: Recv 100 packets with total size 4600 bytes in 120 ms
+      0475a986: ndt_2c Msg: Test: Recv 100 packets with total size 9650 bytes in 120 ms
+      0475a986: ndt_2c Msg: Test: Sent 100 packets with total size 4600 bytes in 120 ms
+      0475a986: ndt_2c Msg: Test Pass #4
+      0475a986: ndt_2c Msg: Start sending 53 packets
+      0475a986: ndt_2c Msg: Sent 53 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 53 packets with total size 3127 bytes in 60 ms
+      0475a986: ndt_2c Msg: Support: Recv 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Test: Recv 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Test: Sent 53 packets with total size 3869 bytes in 60 ms
+      0475a986: ndt_2c Msg: Test Pass #5
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 1000000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 1140000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #6
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7646082 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7786082 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #7
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7603679 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 0 packets with total size 0 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7743679 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 0 packets with total size 0 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #8
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 7657071 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 7797071 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 7797071 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 7797071 bytes in 12490 ms
+      0475a986: ndt_2c Msg: Test Pass #9
+      0475a986: ndt_2c Msg: Start sending 10000 packets
+      0475a986: ndt_2c Msg: Sent 10000 packets
+      0475a986: ndt_2c Msg: Stop receiving and checking results
+      0475a986: ndt_2c Msg: Support: Sent 10000 packets with total size 600000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Support: Recv 10000 packets with total size 740000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Recv 10000 packets with total size 740000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Test: Sent 10000 packets with total size 740000 bytes in 12491 ms
+      0475a986: ndt_2c Msg: Unbinding adapters
+      0475a986: ndt_2c Msg: Closing adapters
+   END TEST: "2c_StressReceive", PASSED, Time=122.955
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      2c_StressReceive
+   *** Test ID:        6
+   *** Library Path:   \ndt_2c.dll
+   *** Command Line:   -s AX881781 -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    16370
+   *** Thread Count:   1
+   *** Execution Time: 0:02:02.955
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+END GROUP: ndt_2c.dll
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    26,353,664 bytes
+*** Memory Used:     13,742,080 bytes
+*** Memory Free:     12,611,584 bytes
+***
+*** Kernel Used:        589,824 bytes
+*** Water Mark:           2,831 pages
+***
+*** Store Total:     26,279,936 bytes
+*** Store Used:         466,944 bytes
+*** Store Free:      25,812,992 bytes
+*** ==================================================================
+
+*** ==================================================================
+*** SUITE SUMMARY
+***
+*** Passed:          6
+*** Failed:          0
+*** Skipped:         0
+*** Aborted:         0
+*** -------- ---------
+*** Total:           6
+***
+*** Cumulative Test Execution Time: 0:19:02.477
+*** Total Tux Suite Execution Time: 0:19:04.348
+*** CPU Idle Time:                  0:17:40.151
+*** ==================================================================
+</TESTGROUP>
+@@@@@@0
+

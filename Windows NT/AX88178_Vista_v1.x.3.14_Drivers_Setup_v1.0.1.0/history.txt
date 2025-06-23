@@ -1,0 +1,28 @@
+//======================================================================
+// ASIX AX88178 Windows Vista Drivers Setup Program
+// Revision History
+//
+// This document describes the major changes, additions and bug fixes made 
+// to the program between released versions. 
+//======================================================================
+
+Version 1.0.1.0 (2011-03-03)
+1. This setup program includes the following AX88178 Vista 32-bit/64-bit drivers.
+   AX88178 Vista 32-bit driver v1.8.3.14
+   AX88178 Vista 64-bit driver v1.10.3.14
+2. Built the setup program using InstallShield2010 from this version.   
+
+
+Version 1.0.0.0 (2009-11-11)
+1. This setup program includes the following AX88178 Vista 32-bit/64-bit drivers.
+   AX88178 Vista 32-bit driver v1.8.3.13
+   AX88178 Vista 64-bit driver v1.10.3.13
+
+
+
+Note:
+=====
+Before run the setup program to install newer driver, please uninstall the older driver
+that user installed before. User can check the list in "Control Panel" -> "Programs" ->
+"Programs and Features". If there is a AX88178 driver in the list, uninstall it
+before run the setup program.

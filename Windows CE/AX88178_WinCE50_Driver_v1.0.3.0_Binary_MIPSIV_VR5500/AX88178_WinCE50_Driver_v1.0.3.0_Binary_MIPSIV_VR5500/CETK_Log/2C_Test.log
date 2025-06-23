@@ -1,0 +1,1167 @@
+a3b6bfc2: ndt_2c Msg: Querying if test miniport is wireless
+a3b6bfc2: ndt_2c Msg: Miniport AX881781 is ** NOT Wireless-LAN **
+<TESTGROUP>
+
+*** ==================================================================
+*** SUITE INFORMATION
+***
+*** Suite Name:        N/A (built on the fly)
+*** Suite Description: N/A
+*** Number of Tests:   6
+*** ==================================================================
+
+*** ==================================================================
+*** SYSTEM INFORMATION
+***
+*** Date and Time:          05/04/2011  1:24 PM (Wednesday)
+***
+*** Device Name:            CEPC
+***
+*** OS Version:             5.0
+*** Build Number:           1400
+*** Platform ID:            3 "Windows CE"
+*** Version String:         ""
+***
+*** Processor Type:         0x000002AE (686) "Intel Pentium II"
+*** Processor Architecture: 0x0000     (0) "Intel"
+*** Page Size:              0x00001000 (4,096)
+*** Minimum App Address:    0x00010000 (65,536)
+*** Maximum App Address:    0x7FFFFFFF (2,147,483,647)
+*** Active Processor Mask:  0x00000001
+*** Number Of Processors:   1
+*** Allocation Granularity: 0x00010000 (65,536)
+*** Processor Level:        0x0003     (3)
+*** Processor Revision:     0x0004     (4)
+*** ==================================================================
+
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    20,996,096 bytes
+*** Memory Used:      9,834,496 bytes
+*** Memory Free:     11,161,600 bytes
+***
+*** Kernel Used:        880,640 bytes
+*** Water Mark:           2,724 pages
+***
+*** Store Total:     20,930,560 bytes
+*** Store Used:         646,008 bytes
+*** Store Free:      20,284,552 bytes
+*** ==================================================================
+
+BEGIN GROUP: ndt_2c.dll
+<TESTCASE ID=1>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_SendPackets
+*** Test ID:        1
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    10728
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_SendPackets", Threads=0, Seed=10728
+      a3b6bfc2: ndt_2c Msg: Start 2c_SendPackets test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Set adapter filters
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 1 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 300 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 300 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 1 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 300 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 300 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 1 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 300 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 300 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 2 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 600 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 600 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 2 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 600 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 600 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 2 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 600 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 600 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 3 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 900 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 900 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 3 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 900 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 900 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 3 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 900 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 900 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 4 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1200 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1200 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 4 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1200 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1200 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 4 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1200 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1200 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 5 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1500 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1500 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 5 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1500 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1500 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 5 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1500 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1500 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 6 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1800 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1800 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 6 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1800 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1800 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 6 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 1800 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 1800 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 7 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2100 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2100 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 7 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2100 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2100 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 7 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2100 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2100 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_SendPackets", PASSED, Time=339.128
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_SendPackets
+*** Test ID:        1
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    10728
+*** Thread Count:   1
+*** Execution Time: 0:05:39.128
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+<TESTCASE ID=2>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_ReceivePackets
+*** Test ID:        2
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    2303
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_ReceivePackets", Threads=0, Seed=2303
+      a3b6bfc2: ndt_2c Msg: Start 2c_ReceivePackets test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Set adapter filters
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 64 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 783 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 1500 bytes to 8 addresses
+      a3b6bfc2: ndt_2c Msg: Sent 2400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Received 2400 packets
+      a3b6bfc2: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_ReceivePackets", PASSED, Time=42.501
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_ReceivePackets
+*** Test ID:        2
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    2303
+*** Thread Count:   1
+*** Execution Time: 0:00:42.501
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+<TESTCASE ID=3>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_FilterReceive
+*** Test ID:        3
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    7559
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_FilterReceive", Threads=0, Seed=7559
+      a3b6bfc2: ndt_2c Msg: Start 2c_FilterReceive test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Possible filter settings:
+      a3b6bfc2: ndt_2c Msg:   - Directed
+      a3b6bfc2: ndt_2c Msg:   - Broadcast
+      a3b6bfc2: ndt_2c Msg:   - Promiscuous
+      a3b6bfc2: ndt_2c Msg:   - Multicast
+      a3b6bfc2: ndt_2c Msg:   - All Multicast
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_NONE for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Setting receiving filters
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      a3b6bfc2: ndt_2c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      a3b6bfc2: ndt_2c Msg: Start receiving
+      a3b6bfc2: ndt_2c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Instance 0 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 1 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 2 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 3 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 4 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 5 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 6 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Instance 7 received expected 300 packets
+      a3b6bfc2: ndt_2c Msg: Unbinding adapters
+   END TEST: "2c_FilterReceive", PASSED, Time=291.175
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_FilterReceive
+*** Test ID:        3
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    7559
+*** Thread Count:   1
+*** Execution Time: 0:04:51.175
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+<TESTCASE ID=4>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_MulticastReceive
+*** Test ID:        4
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    24723
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_MulticastReceive", Threads=0, Seed=24723
+      a3b6bfc2: ndt_2c Msg: Start 1c_MulticastReceive test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Add multicast addresses
+      a3b6bfc2: ndt_2c Msg: Set multicast filter
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 8 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 80 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 64 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 640 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 8 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 16 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 160 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 56 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 560 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 8 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 24 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 240 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 48 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 480 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 8 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 32 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 320 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 40 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 400 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 8 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 40 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 400 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 32 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 320 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 4 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 44 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 440 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 28 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 280 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 4 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 48 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 480 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 24 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 240 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 4 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 52 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 520 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 20 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 200 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 4 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 56 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 560 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 16 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 160 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 57 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 570 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 15 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 150 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 58 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 580 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 14 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 140 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 59 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 590 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 13 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 130 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 60 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 600 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 12 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 120 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 61 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 610 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 11 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 110 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 62 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 620 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 10 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 100 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 63 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 630 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 9 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 90 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 64 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 640 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 8 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 80 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 65 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 650 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 7 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 70 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 66 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 660 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 6 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 60 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 67 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 670 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 5 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 50 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 68 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 680 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 4 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 40 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 69 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 690 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 3 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 30 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 70 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 700 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 2 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 20 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 71 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 710 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly received 10 packets
+      a3b6bfc2: ndt_2c Msg: Removing randomly 1 multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sending 10 packets on 72 unused multicast addresses
+      a3b6bfc2: ndt_2c Msg: Sent 720 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Properly didn't receive packets
+      a3b6bfc2: ndt_2c Msg: Closing adapters
+   END TEST: "2c_MulticastReceive", PASSED, Time=222.433
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_MulticastReceive
+*** Test ID:        4
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    24723
+*** Thread Count:   1
+*** Execution Time: 0:03:42.433
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+<TESTCASE ID=5>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_StressSend
+*** Test ID:        5
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    15237
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_StressSend", Threads=0, Seed=15237
+      a3b6bfc2: ndt_2c Msg: Start 2c_StressSend test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Seting direct receive filters
+      a3b6bfc2: ndt_2c Msg: Test Pass #0
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7811942 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7811942 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #1
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7712017 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7712017 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #2
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7796868 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7796868 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #3
+      a3b6bfc2: ndt_2c Msg: Start sending 100 packets
+      a3b6bfc2: ndt_2c Msg: Sent 100 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 100 packets with total size 9650 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 100 packets with total size 4600 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 100 packets with total size 9650 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 100 packets with total size 4600 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #4
+      a3b6bfc2: ndt_2c Msg: Start sending 53 packets
+      a3b6bfc2: ndt_2c Msg: Sent 53 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #5
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 1140000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 1140000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #6
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7814789 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7814789 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #7
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7676124 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7676124 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 0 packets with total size 0 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #8
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7800781 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7800781 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7800781 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7800781 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #9
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Unbinding adapters
+      a3b6bfc2: ndt_2c Msg: Closing adapters
+   END TEST: "2c_StressSend", PASSED, Time=122.798
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_StressSend
+*** Test ID:        5
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    15237
+*** Thread Count:   1
+*** Execution Time: 0:02:02.798
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+<TESTCASE ID=6>
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+*** TEST STARTING
+***
+*** Test Name:      2c_StressReceive
+*** Test ID:        6
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Random Seed:    17028
+*** Thread Count:   0
+*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "2c_StressReceive", Threads=0, Seed=17028
+      a3b6bfc2: ndt_2c Msg: Start 2c_StessReceive test
+      a3b6bfc2: ndt_2c Msg: The test adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: The support adapter is AX881781
+      a3b6bfc2: ndt_2c Msg: Opening adapters
+      a3b6bfc2: ndt_2c Msg: Binding adapters
+      a3b6bfc2: ndt_2c Msg: Get basic adapters info
+      a3b6bfc2: ndt_2c Msg: Seting direct receive filters
+      a3b6bfc2: ndt_2c Msg: Test Pass #0
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7780244 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7780244 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #1
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7797457 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7797457 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #2
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7768301 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7768301 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #3
+      a3b6bfc2: ndt_2c Msg: Start sending 100 packets
+      a3b6bfc2: ndt_2c Msg: Sent 100 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 100 packets with total size 9650 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 100 packets with total size 4600 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 100 packets with total size 9650 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 100 packets with total size 4600 bytes in 120 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #4
+      a3b6bfc2: ndt_2c Msg: Start sending 53 packets
+      a3b6bfc2: ndt_2c Msg: Sent 53 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 53 packets with total size 3869 bytes in 60 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #5
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 1140000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 1140000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #6
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7765530 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7765530 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #7
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7770793 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7770793 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 0 packets with total size 0 bytes in 12491 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #8
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 7902816 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 7902816 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 7902816 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 7902816 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test Pass #9
+      a3b6bfc2: ndt_2c Msg: Start sending 10000 packets
+      a3b6bfc2: ndt_2c Msg: Sent 10000 packets
+      a3b6bfc2: ndt_2c Msg: Stop receiving and checking results
+      a3b6bfc2: ndt_2c Msg: Support: Sent 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Support: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Recv 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Test: Sent 10000 packets with total size 740000 bytes in 12490 ms
+      a3b6bfc2: ndt_2c Msg: Unbinding adapters
+      a3b6bfc2: ndt_2c Msg: Closing adapters
+   END TEST: "2c_StressReceive", PASSED, Time=122.802
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*** TEST COMPLETED
+***
+*** Test Name:      2c_StressReceive
+*** Test ID:        6
+*** Library Path:   \ndt_2c.dll
+*** Command Line:   -s AX881781 -tAX881781
+*** Result:         Passed
+*** Random Seed:    17028
+*** Thread Count:   1
+*** Execution Time: 0:02:02.802
+*** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+</TESTCASE RESULT="PASSED">
+END GROUP: ndt_2c.dll
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    20,996,096 bytes
+*** Memory Used:     10,006,528 bytes
+*** Memory Free:     10,989,568 bytes
+***
+*** Kernel Used:        884,736 bytes
+*** Water Mark:           2,663 pages
+***
+*** Store Total:     20,930,560 bytes
+*** Store Used:         664,044 bytes
+*** Store Free:      20,266,516 bytes
+*** ==================================================================
+
+*** ==================================================================
+*** SUITE SUMMARY
+***
+*** Passed:          6
+*** Failed:          0
+*** Skipped:         0
+*** Aborted:         0
+*** -------- ---------
+*** Total:           6
+***
+*** Cumulative Test Execution Time: 0:19:00.837
+*** Total Tux Suite Execution Time: 0:19:02.472
+*** CPU Idle Time:                  0:18:32.248
+*** ==================================================================
+</TESTGROUP>
+@@@@@@0
+

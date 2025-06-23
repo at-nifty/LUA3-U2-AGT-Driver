@@ -1,0 +1,81 @@
+==========================================
+WIndows CE 5.0 Test Kit (CETK 5.0) 
+One-Card Network Card Miniport Driver Test
+==========================================
+
+REM tux -o -d ndt_1c -c "-t test_adapter ..."
+REM 
+REM Parameters:
+REM 
+REM -t adapter : Adapter to test (e.g. NE20001)
+REM -nounbind  : Do not unbind protocols from the test adapter
+REM -fault     : Run 1c_FaultHandling test (default false)
+REM -cancel    : Check result for 1c_CancelSend (default false)
+REM -nostress  : Skip stress tests (default false)
+REM -fullmulti : Run 1c_SetMulticast with maximal number of addresses
+REM 
+REM Do not use the Vmini network interface with this test. 
+REM The Vmini interface disables your KITL connection to the Windows CE¡Vbased device.
+REM 
+REM Miniport NDIS Adapters
+REM 
+REM Name                 Medium
+REM ======================================
+REM AX881781             Ethernet 802.3
+REM VMINI1               Ethernet 802.3
+
+tux -o -d ndt_1c -c "-t AX881781"
+
+
+================================================================================
+Note: 	The WinCE 5.0 CETK One-Card Network Card Miniport Driver Test has 
+	one problem as described below:
+	The CETK server will be disconnected with the target device every time 
+	while the 1c_SuspendResume test is going to the point as descibed below. 
+	Because the CETK server is already disconnected with the target device, 
+	the test results file will not be created by the CETK server even though 
+	all of the One-Card Network Card Miniport Driver Test items are completed 
+	with any errors. This issue is also happened on NE2000 adapter loaded 
+	with WinCE 5.0 default "NE2000-compatible [ISA card]" driver. 
+	So I assume this is an CETK 5.0 issue. 
+	
+	*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	*** TEST STARTING
+	***
+	*** Test Name:      1c_SuspendResume
+	*** Test ID:        11
+	*** Library Path:   \ndt_1c.dll
+	*** Command Line:   -t NE20001
+	*** Random Seed:    25617
+	*** Thread Count:   0
+	*** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+	   BEGIN TEST: "1c_SuspendResume", Threads=0, Seed=25617
+	      43d5c062: ndt_1c Msg: Start 1c_SusRes (Suspend/Resume) test on the
+	adapter NE20001
+	      43d5c062: ndt_1c Msg: Enabling the Wake up source : SYSINTR_RTC_ALARM
+	      43d5c062: ndt_1c Msg: Suspending the system 1 time
+	      .....
+	      
+Solutions:
+	This issue has been confirmed to be a CETK 5.0 issue by Microsoft CETK team. 
+	They will fix this issue in the future. Below are the solutions to avoid 
+	this situation suggested by Microsoft,
+	      
+	1. Make sure the CETK Clientside.exe program is NOT currently running on
+	   your device.
+	2. Start Windows CE Test Kit (CETK) on the desktop machine.
+	3. Select "Start client..." from the "Connection" menu.
+	4. On the "Device Connection" dialog, make sure the "Use Windows Sockets
+	   for the client/server communication." checkbox is NOT checked.
+	5. Click "Connect..." to get the connection to Windows CE target device.
+	6. On the "Select a Windows CE Device" dialog, select the device you are
+	   connecting to (typically "Default Device") and click OK.
+	7. Select "Windows CE Device Driver Test Kit" and click right mouse key 
+	   to select "Deselect All Tests".
+	8. Expand the "Ethernet" test items under "Windows CE Device Driver Test Kit".
+	9. Select "One-Card Network Card Miniport Driver Test" and click right mouse key 
+	   to select "Edit Command Line...". Enter <tux -o -d ndt_1c -c "-t AX881781">
+	   command on the Edit Command Line dialog and click OK.	   
+	10.Select "Windows CE Device Driver Test Kit" and click right mouse key 
+	   to select "Start Tests" to start the Ethernet testings.
+================================================================================

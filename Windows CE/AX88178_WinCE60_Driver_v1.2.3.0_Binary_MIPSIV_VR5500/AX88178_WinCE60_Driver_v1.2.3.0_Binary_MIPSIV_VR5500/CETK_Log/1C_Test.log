@@ -1,0 +1,1589 @@
+053b00a2: ndt_1c Msg: Querying if miniport is wireless
+053b00a2: ndt_1c Msg: Miniport AX881781 is ** NOT Wireless-LAN **
+<TESTGROUP>
+
+*** ==================================================================
+*** SUITE INFORMATION
+***
+*** Suite Name:        N/A (built on the fly)
+*** Suite Description: N/A
+*** Number of Tests:   13
+*** ==================================================================
+
+*** ==================================================================
+*** SYSTEM INFORMATION
+***
+*** Date and Time:          05/04/2011  7:57 PM (Wednesday)
+***
+*** Device Name:            CEPC
+***
+*** OS Version:             6.00
+*** Build Number:           2217
+*** Platform ID:            3 "Windows CE"
+*** Version String:         ""
+***
+*** Processor Type:         0x000002AE (686) "Intel Pentium II"
+*** Processor Architecture: 0x0000     (0) "Intel"
+*** Page Size:              0x00001000 (4,096)
+*** Minimum App Address:    0x00010000 (65,536)
+*** Maximum App Address:    0x7FFFFFFF (2,147,483,647)
+*** Active Processor Mask:  0x00000001
+*** Number Of Processors:   1
+*** Allocation Granularity: 0x00010000 (65,536)
+*** Processor Level:        0x0003     (3)
+*** Processor Revision:     0x0004     (4)
+*** ==================================================================
+
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    26,353,664 bytes
+*** Memory Used:     10,715,136 bytes
+*** Memory Free:     15,638,528 bytes
+***
+*** Kernel Used:        397,312 bytes
+*** Water Mark:           3,811 pages
+***
+*** Store Total:     26,279,936 bytes
+*** Store Used:         442,368 bytes
+*** Store Free:      25,837,568 bytes
+*** ==================================================================
+
+BEGIN GROUP: ndt_1c.dll
+   <TESTCASE ID=1>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_OpenClose
+   *** Test ID:        1
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    22926
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_OpenClose", Threads=0, Seed=22926
+      053b00a2: ndt_1c Msg: Start 1c_OpenClose test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Opening adapter
+      053b00a2: ndt_1c Msg: Repeatedly binding and unbinding the adapter
+      053b00a2: ndt_1c Msg: Open and bind the adapter multiple times, then close each open instance
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #0)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #1)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #2)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #3)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #4)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #5)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #6)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #7)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #8)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #9)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #10)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #11)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #12)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #13)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #14)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Opening 128 adapter instances (pass #15)
+      053b00a2: ndt_1c Msg: Closing all adapter instances
+      053b00a2: ndt_1c Msg: Test 1c_OpenClose on the adapter AX881781 PASS
+   END TEST: "1c_OpenClose", PASSED, Time=43.635
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_OpenClose
+   *** Test ID:        1
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    22926
+   *** Thread Count:   1
+   *** Execution Time: 0:00:43.635
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=2>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_Send
+   *** Test ID:        2
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    9369
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_Send", Threads=0, Seed=9369
+      053b00a2: ndt_1c Msg: Start 1c_Send test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Getting basic info about the adapter
+      053b00a2: ndt_1c Msg: Get OID_GEN_MAXIMUM_TOTAL_SIZE = 1514
+      053b00a2: ndt_1c Msg: Get OID_GEN_MAXIMUM_FRAME_SIZE = 1500
+      053b00a2: ndt_1c Msg: Testing sending to a (random) directed address
+      053b00a2: ndt_1c Msg: Sending: Send
+      053b00a2: ndt_1c Msg: Sending to a random address
+      053b00a2: ndt_1c Msg: Sending: Send
+      053b00a2: ndt_1c Msg: Sending to a broadcast address
+      053b00a2: ndt_1c Msg: Sending: Send
+      053b00a2: ndt_1c Msg: Sending to a multicast/functional address
+      053b00a2: ndt_1c Msg: Sending: Send
+      053b00a2: ndt_1c Msg: Testing sending to a group of addresses
+   END TEST: "1c_Send", PASSED, Time=49.674
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_Send
+   *** Test ID:        2
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    9369
+   *** Thread Count:   1
+   *** Execution Time: 0:00:49.674
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=3>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_LoopbackSend
+   *** Test ID:        3
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    30633
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_LoopbackSend", Threads=0, Seed=30633
+      053b00a2: ndt_1c Msg: Start 1c_Loopback test
+      053b00a2: ndt_1c Msg: The test adapter is AX881781
+      053b00a2: ndt_1c Msg: Opening adapters
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Get basic adapter info
+      053b00a2: ndt_1c Msg: Maximum Frame size=1500
+      053b00a2: ndt_1c Msg: Possible filter settings:
+      053b00a2: ndt_1c Msg:   - Directed
+      053b00a2: ndt_1c Msg:   - Broadcast
+      053b00a2: ndt_1c Msg:   - Promiscuous
+      053b00a2: ndt_1c Msg:   - Multicast
+      053b00a2: ndt_1c Msg:   - All Multicast
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_NONE for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Test NIC's directed Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_NONE for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Broadcast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_NONE for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Any directed Random Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_NONE for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_NONE for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 1 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 2 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 3 properly didn't receive packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Setting receiving filters
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 0
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+ for instance 1
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 2
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+ for instance 3
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 4
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_PROMISCUOUS+ for instance 5
+      053b00a2: ndt_1c Msg: Set filter FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 6
+      053b00a2: ndt_1c Msg: Set filter FILTER_DIRECTED+FILTER_MULTICAST+FILTER_ALL_MULTICAST+FILTER_BROADCAST+FILTER_PROMISCUOUS+ for instance 7
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Sending 300 packets with size 128 bytes to Bad Multicast Addr
+      053b00a2: ndt_1c Msg: Stop receiving and checking results
+      053b00a2: ndt_1c Msg: Instance 0 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 1 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 2 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 3 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 4 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 5 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 6 received expected 300 packets
+      053b00a2: ndt_1c Msg: Instance 7 received expected 300 packets
+      053b00a2: ndt_1c Msg: Unbinding adapters
+   END TEST: "1c_LoopbackSend", PASSED, Time=291.408
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_LoopbackSend
+   *** Test ID:        3
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    30633
+   *** Thread Count:   1
+   *** Execution Time: 0:04:51.408
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=4>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_LoopbackStress
+   *** Test ID:        4
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    1769
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_LoopbackStress", Threads=0, Seed=1769
+      053b00a2: ndt_1c Msg: Start 1c_LoopbackStess test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Getting informations about the adapter
+      053b00a2: ndt_1c Msg: Opening adapters
+      053b00a2: ndt_1c Msg: Start Stress Tests
+      053b00a2: ndt_1c Msg: Test #0
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7630657 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7770657 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #1
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7694511 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7834511 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #2
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7685321 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7825321 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #3
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 100 packets with total size 8250 bytes in 120 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 100 packets with total size 4600 bytes in 120 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 100 packets with total size 9650 bytes in 120 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 100 packets with total size 4600 bytes in 120 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #4
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 53 packets with total size 3127 bytes in 60 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 53 packets with total size 3869 bytes in 60 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 53 packets with total size 3869 bytes in 60 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 53 packets with total size 3869 bytes in 60 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #5
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 1000000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 1140000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 460000 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #6
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7725682 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 460000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7865682 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 460000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #7
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7676574 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 0 packets with total size 0 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7816574 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 0 packets with total size 0 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #8
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 7721647 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 7861647 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 7861647 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 7861647 bytes in 12490 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Test #9
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 10000 packets with total size 600000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 10000 packets with total size 740000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 10000 packets with total size 740000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 10000 packets with total size 740000 bytes in 12491 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Start simultaneous stress tests
+      053b00a2: ndt_1c Msg: Binding to adapters
+      053b00a2: ndt_1c Msg: Start receiving
+      053b00a2: ndt_1c Msg: Start sending
+      053b00a2: ndt_1c Msg: Wait to finish with sending
+      053b00a2: ndt_1c Msg: Stop listening
+      053b00a2: ndt_1c Msg: Bind #0: Sent 6 packets with total size 213 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #0: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #1: Sent 6 packets with total size 213 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #1: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #2: Sent 6 packets with total size 213 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #2: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #3: Sent 6 packets with total size 213 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #3: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #4: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #4: Sent 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #5: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #5: Sent 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #6: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #6: Sent 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #7: Recv 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Bind #7: Sent 6 packets with total size 297 bytes in 0 ms
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Closing adapters
+   END TEST: "1c_LoopbackStress", PASSED, Time=127.086
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_LoopbackStress
+   *** Test ID:        4
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    1769
+   *** Thread Count:   1
+   *** Execution Time: 0:02:07.086
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=5>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_SetMulticast
+   *** Test ID:        5
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    5815
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_SetMulticast", Threads=0, Seed=5815
+      053b00a2: ndt_1c Msg: Start 1c_SetMulticast test
+      053b00a2: ndt_1c Msg: The test adapter is AX881781
+      053b00a2: ndt_1c Msg: Opening adapters
+      053b00a2: ndt_1c Msg: Binding to adapters
+      053b00a2: ndt_1c Msg: GetMaxListSize
+      053b00a2: ndt_1c Msg: Driver support 64 address in multicast list
+      053b00a2: ndt_1c Msg: 64 multicast addresses will be tested
+      053b00a2: ndt_1c Msg: Add/Delete a multicast address multiple times
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add as many multicast addresses as driver says it supports
+      053b00a2: ndt_1c Msg: Adding multicast address 1
+      053b00a2: ndt_1c Msg: Adding multicast address 2
+      053b00a2: ndt_1c Msg: Adding multicast address 3
+      053b00a2: ndt_1c Msg: Adding multicast address 4
+      053b00a2: ndt_1c Msg: Adding multicast address 5
+      053b00a2: ndt_1c Msg: Adding multicast address 6
+      053b00a2: ndt_1c Msg: Adding multicast address 7
+      053b00a2: ndt_1c Msg: Adding multicast address 8
+      053b00a2: ndt_1c Msg: Adding multicast address 9
+      053b00a2: ndt_1c Msg: Adding multicast address 10
+      053b00a2: ndt_1c Msg: Adding multicast address 11
+      053b00a2: ndt_1c Msg: Adding multicast address 12
+      053b00a2: ndt_1c Msg: Adding multicast address 13
+      053b00a2: ndt_1c Msg: Adding multicast address 14
+      053b00a2: ndt_1c Msg: Adding multicast address 15
+      053b00a2: ndt_1c Msg: Adding multicast address 16
+      053b00a2: ndt_1c Msg: Adding multicast address 17
+      053b00a2: ndt_1c Msg: Adding multicast address 18
+      053b00a2: ndt_1c Msg: Adding multicast address 19
+      053b00a2: ndt_1c Msg: Adding multicast address 20
+      053b00a2: ndt_1c Msg: Adding multicast address 21
+      053b00a2: ndt_1c Msg: Adding multicast address 22
+      053b00a2: ndt_1c Msg: Adding multicast address 23
+      053b00a2: ndt_1c Msg: Adding multicast address 24
+      053b00a2: ndt_1c Msg: Adding multicast address 25
+      053b00a2: ndt_1c Msg: Adding multicast address 26
+      053b00a2: ndt_1c Msg: Adding multicast address 27
+      053b00a2: ndt_1c Msg: Adding multicast address 28
+      053b00a2: ndt_1c Msg: Adding multicast address 29
+      053b00a2: ndt_1c Msg: Adding multicast address 30
+      053b00a2: ndt_1c Msg: Adding multicast address 31
+      053b00a2: ndt_1c Msg: Adding multicast address 32
+      053b00a2: ndt_1c Msg: Adding multicast address 33
+      053b00a2: ndt_1c Msg: Adding multicast address 34
+      053b00a2: ndt_1c Msg: Adding multicast address 35
+      053b00a2: ndt_1c Msg: Adding multicast address 36
+      053b00a2: ndt_1c Msg: Adding multicast address 37
+      053b00a2: ndt_1c Msg: Adding multicast address 38
+      053b00a2: ndt_1c Msg: Adding multicast address 39
+      053b00a2: ndt_1c Msg: Adding multicast address 40
+      053b00a2: ndt_1c Msg: Adding multicast address 41
+      053b00a2: ndt_1c Msg: Adding multicast address 42
+      053b00a2: ndt_1c Msg: Adding multicast address 43
+      053b00a2: ndt_1c Msg: Adding multicast address 44
+      053b00a2: ndt_1c Msg: Adding multicast address 45
+      053b00a2: ndt_1c Msg: Adding multicast address 46
+      053b00a2: ndt_1c Msg: Adding multicast address 47
+      053b00a2: ndt_1c Msg: Adding multicast address 48
+      053b00a2: ndt_1c Msg: Adding multicast address 49
+      053b00a2: ndt_1c Msg: Adding multicast address 50
+      053b00a2: ndt_1c Msg: Adding multicast address 51
+      053b00a2: ndt_1c Msg: Adding multicast address 52
+      053b00a2: ndt_1c Msg: Adding multicast address 53
+      053b00a2: ndt_1c Msg: Adding multicast address 54
+      053b00a2: ndt_1c Msg: Adding multicast address 55
+      053b00a2: ndt_1c Msg: Adding multicast address 56
+      053b00a2: ndt_1c Msg: Adding multicast address 57
+      053b00a2: ndt_1c Msg: Adding multicast address 58
+      053b00a2: ndt_1c Msg: Adding multicast address 59
+      053b00a2: ndt_1c Msg: Adding multicast address 60
+      053b00a2: ndt_1c Msg: Adding multicast address 61
+      053b00a2: ndt_1c Msg: Adding multicast address 62
+      053b00a2: ndt_1c Msg: Adding multicast address 63
+      053b00a2: ndt_1c Msg: Adding multicast address 64
+      053b00a2: ndt_1c Msg: Delete all these added multicast addresses
+      053b00a2: ndt_1c Msg: Add/Delete a multicast address multiple times on two instances
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add/Query Multicast
+      053b00a2: ndt_1c Msg: Delete/Query Multicast
+      053b00a2: ndt_1c Msg: Add half of the maximum allowed list size multicast address to each open instance
+      053b00a2: ndt_1c Msg: Delete all these added multicast addresses
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Closing adapters
+   END TEST: "1c_SetMulticast", PASSED, Time=3.046
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_SetMulticast
+   *** Test ID:        5
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    5815
+   *** Thread Count:   1
+   *** Execution Time: 0:00:03.046
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=6>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_Reset
+   *** Test ID:        6
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    19027
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_Reset", Threads=0, Seed=19027
+      053b00a2: ndt_1c Msg: Start 1c_Reset test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Opening adapters
+      053b00a2: ndt_1c Msg: Getting basic info about the adapter
+      053b00a2: ndt_1c Msg: Querying if miniport is wireless
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Sending packets
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Reset
+      053b00a2: ndt_1c Msg: Querying connect status
+      053b00a2: ndt_1c Msg: Unbinding adapters
+      053b00a2: ndt_1c Msg: Closing adapters
+   END TEST: "1c_Reset", PASSED, Time=60.362
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_Reset
+   *** Test ID:        6
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    19027
+   *** Thread Count:   1
+   *** Execution Time: 0:01:00.362
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=7>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_CancelSend
+   *** Test ID:        7
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    29404
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_CancelSend", Threads=0, Seed=29404
+      053b00a2: ndt_1c Msg: Start 1c_CancelSend test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Opening adapters
+      053b00a2: ndt_1c Msg: Getting basic info about the adapter
+      053b00a2: ndt_1c Msg: Binding adapters
+      053b00a2: ndt_1c Msg: Sending and cancel packets
+      053b00a2: ndt_1c Msg: Unbind adapters
+      053b00a2: ndt_1c Msg: 1000 packets was sent. 900 packet wasn't canceled. 0 packet was.
+      053b00a2: ndt_1c Msg: Closing adapters
+   END TEST: "1c_CancelSend", PASSED, Time=6.566
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_CancelSend
+   *** Test ID:        7
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    29404
+   *** Thread Count:   1
+   *** Execution Time: 0:00:06.566
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=8>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_FaultHandling
+   *** Test ID:        8
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    30523
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_FaultHandling", Threads=0, Seed=30523
+   END TEST: "1c_FaultHandling", SKIPPED, Time=0.000
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_FaultHandling
+   *** Test ID:        8
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Skipped
+   *** Random Seed:    30523
+   *** Thread Count:   1
+   *** Execution Time: 0:00:00.000
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="SKIPPED">
+   <TESTCASE ID=9>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_OIDs
+   *** Test ID:        9
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    1409
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_OIDs", Threads=0, Seed=1409
+      053b00a2: ndt_1c Msg: Start 1c_TestOidsDeviceIoControl test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Open adapter
+      053b00a2: ndt_1c Msg: Bind to adapter
+      053b00a2: ndt_1c Msg: Get Supported OIDs List
+      053b00a2: ndt_1c Msg: Check for all required OIDs
+      053b00a2: ndt_1c Msg: Check that listed OIDs really are supported
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010101 should be queried
+      053b00a2: ndt_1c Msg: The OID 0x00010101 was skippen
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010102 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010103 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010104 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010114 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010105 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010106 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010111 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010115 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010113 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010112 should be queried
+      053b00a2: ndt_1c Msg: The OID 0x00010112 was skippen
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010107 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010108 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010a should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0002020e should be queried
+      053b00a2: ndt_1c Msg: The OID 0x0002020e isn't required, and hence not checked
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010109 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010b should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010c should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010d should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010116 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010e should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x0001010f should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00010110 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00020101 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00020103 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00020102 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00020104 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x00020105 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01010101 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01010102 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01010103 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01010104 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01020101 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01020102 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0x01020103 should be queried
+      053b00a2: ndt_1c Msg: Checking if an OID 0xfd010100 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xfd010100 isn't required, and hence not checked
+      053b00a2: ndt_1c Msg: Checking if an OID 0xfd010106 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xfd010106 was skippen
+      053b00a2: ndt_1c Msg: Checking if an OID 0xfd010102 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xfd010102 was skippen
+      053b00a2: ndt_1c Msg: Checking if an OID 0xfd010101 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xfd010101 was skippen
+      053b00a2: ndt_1c Msg: Checking if an OID 0xff000000 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xff000000 isn't required, and hence not checked
+      053b00a2: ndt_1c Msg: Checking if an OID 0xff000001 should be queried
+      053b00a2: ndt_1c Msg: The OID 0xff000001 isn't required, and hence not checked
+      053b00a2: ndt_1c Msg: Close adapter
+   END TEST: "1c_OIDs", PASSED, Time=1.167
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_OIDs
+   *** Test ID:        9
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    1409
+   *** Thread Count:   1
+   *** Execution Time: 0:00:01.167
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=10>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_64BitOIDs
+   *** Test ID:        10
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    4639
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_64BitOIDs", Threads=0, Seed=4639
+      053b00a2: ndt_1c Msg: Start 1c_64BitOID test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Open adapter
+      053b00a2: ndt_1c Msg: Bind to adapter
+      053b00a2: ndt_1c Msg: Link speed is lower than 1.0Gbps
+      053b00a2: ndt_1c Msg: 64-bit statistics are optional
+      053b00a2: ndt_1c Msg: Querying 64bit OIDs
+      053b00a2: ndt_1c Msg: Query with a null buffer
+      053b00a2: ndt_1c Msg: Query with a four byte buffer
+      053b00a2: ndt_1c Msg: Query with an eight byte buffer
+      053b00a2: ndt_1c Msg: Query with a null buffer
+      053b00a2: ndt_1c Msg: Query with a four byte buffer
+      053b00a2: ndt_1c Msg: Query with an eight byte buffer
+      053b00a2: ndt_1c Msg: Unbind adapter
+      053b00a2: ndt_1c Msg: Close adapter
+   END TEST: "1c_64BitOIDs", PASSED, Time=0.238
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_64BitOIDs
+   *** Test ID:        10
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    4639
+   *** Thread Count:   1
+   *** Execution Time: 0:00:00.238
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=11>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_SuspendResume
+   *** Test ID:        11
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    15187
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_SuspendResume", Threads=0, Seed=15187
+      053b00a2: ndt_1c Msg: Start 1c_SusRes (Suspend/Resume) test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Enabling the Wake up source : SYSINTR_RTC_ALARM
+      053b00a2: ndt_1c Wrn: SKIPPING TEST: The system does not support enabling waking up from suspend (IOCTL_HAL_ENABLE_WAKE)
+   END TEST: "1c_SuspendResume", SKIPPED, Time=0.085
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_SuspendResume
+   *** Test ID:        11
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Skipped
+   *** Random Seed:    15187
+   *** Thread Count:   1
+   *** Execution Time: 0:00:00.085
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="SKIPPED">
+   <TESTCASE ID=12>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_StressSusRes
+   *** Test ID:        12
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    16864
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_StressSusRes", Threads=0, Seed=16864
+      053b00a2: ndt_1c Msg: Start 1c_StressSusRes (Stress in Suspend/Resume) test on the adapter AX881781
+      053b00a2: ndt_1c Msg: Opening adapter
+      053b00a2: ndt_1c Msg: Binding to it
+      053b00a2: ndt_1c Msg: Checking if miniport is PM aware.
+      053b00a2: ndt_1c Msg: AX881781 supports only Power Management, but does not have wake-up capabilities
+      02b53426: ndt_1c Msg: StressOIDs: AX881781 supports ** 41 ** OIDs
+      02b7174e: ndt_1c Msg: StressSendRecv: stress started
+      02b53426: ndt_1c Msg: StressOIDs: stress started
+      02b7174e: ndt_1c Msg: StressSendRecv: Sending 1000 packets each of 64 size to a random address
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 1 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 1 time
+      053b00a2: ndt_1c Msg: Waiting 1000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 2 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 2 time
+      053b00a2: ndt_1c Msg: Waiting 1000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 3 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 3 time
+      053b00a2: ndt_1c Msg: Waiting 1000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 4 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 4 time
+      053b00a2: ndt_1c Msg: Waiting 1000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 5 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 5 time
+      053b00a2: ndt_1c Msg: Waiting 1000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 6 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 6 time
+      053b00a2: ndt_1c Msg: Waiting 2000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 7 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 7 time
+      053b00a2: ndt_1c Msg: Waiting 2000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 8 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 8 time
+      053b00a2: ndt_1c Msg: Waiting 2000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 9 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 9 time
+      053b00a2: ndt_1c Msg: Waiting 2000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 10 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 10 time
+      053b00a2: ndt_1c Msg: Waiting 2000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 11 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 11 time
+      053b00a2: ndt_1c Msg: Waiting 4000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 12 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 12 time
+      053b00a2: ndt_1c Msg: Waiting 4000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 13 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 13 time
+      053b00a2: ndt_1c Msg: Waiting 4000 mili sec
+      02b7174e: ndt_1c Msg: StressSendRecv: 0 packets each of 64 size were SendCompleted
+      02b7174e: ndt_1c Msg: StressSendRecv: Sending 1000 packets each of 127 size to a random address
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 14 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 14 time
+      053b00a2: ndt_1c Msg: Waiting 4000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 15 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 15 time
+      053b00a2: ndt_1c Msg: Waiting 4000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 16 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 16 time
+      053b00a2: ndt_1c Msg: Waiting 5000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 17 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 17 time
+      053b00a2: ndt_1c Msg: Waiting 5000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 18 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 18 time
+      053b00a2: ndt_1c Msg: Waiting 5000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 19 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 19 time
+      053b00a2: ndt_1c Msg: Waiting 5000 mili sec
+      053b00a2: ndt_1c Msg: Transitioning the adapter to D4 state 20 time
+      053b00a2: ndt_1c Msg: Transitioning back to D0 state 20 time
+      053b00a2: ndt_1c Msg: Waiting 5000 mili sec
+      053b00a2: ndt_1c Msg: Waiting for Stress OIDs thread to terminate
+      02b53426: ndt_1c Msg: StressOIDs: signaled to stop
+      02b53426: ndt_1c Msg: StressOIDs: Cleaned up & exiting.
+      053b00a2: ndt_1c Msg: Stress OIDs thread exited with exit value : PASS
+      053b00a2: ndt_1c Msg: Waiting for StressSendRecv thread to terminate
+      02b7174e: ndt_1c Msg: StressSendRecv: 0 packets each of 127 size were SendCompleted
+      02b7174e: ndt_1c Msg: StressSendRecv: signaled to stop
+      02b7174e: ndt_1c Msg: StressSendRecv: Cleaned up & exiting.
+      053b00a2: ndt_1c Msg: Stress SendRecv thread exited with exit value : PASS
+      053b00a2: ndt_1c Msg: Unbinding to it
+      053b00a2: ndt_1c Msg: Closing adapter
+   END TEST: "1c_StressSusRes", PASSED, Time=86.457
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_StressSusRes
+   *** Test ID:        12
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    16864
+   *** Thread Count:   1
+   *** Execution Time: 0:01:26.457
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+   <TESTCASE ID=13>
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   *** TEST STARTING
+   ***
+   *** Test Name:      1c_ResetOnResume
+   *** Test ID:        13
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Random Seed:    22341
+   *** Thread Count:   0
+   *** vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+   BEGIN TEST: "1c_ResetOnResume", Threads=0, Seed=22341
+      053b00a2: ndt_1c Msg: Start 1c_ResetOnResume (Reset on Resume) test on the adapter AX881781
+      053b00a2: ndt_1c Msg: This test will test if AX881781 restores its settings after Reset
+      053b00a2: ndt_1c Msg: AX881781 supports only Power Management, but does not have wake-up capabilities
+      053b00a2: ndt_1c Msg: Set CURRENT_PACKET_FILTER = NDIS_PACKET_TYPE_MULTICAST|NDIS_PACKET_TYPE_DIRECTED for adapter AX881781
+      053b00a2: ndt_1c Msg: AX881781 supports max 64 Multicast addresses
+      053b00a2: ndt_1c Msg: Got the current complete list of multicast addresses for AX881781
+      053b00a2: ndt_1c Msg: It has 0 multicast addresses set
+      053b00a2: ndt_1c Msg: Set 62 multicast addresses for AX881781
+      053b00a2: ndt_1c Msg: We'll RESET the device & at the end of every RESET we'll verify if AX881781 restores its settings or not
+      053b00a2: ndt_1c Msg: Reseting the network adapter AX881781 1 time
+      053b00a2: ndt_1c Msg: Waiting to receive NDIS_STATUS_RESET_END notification on the miniport adapter AX881781
+      053b00a2: ndt_1c Msg: Received NDIS_STATUS_RESET_END notification on AX881781
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its Packet Filter settings.
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its multicast addresses list.
+      053b00a2: ndt_1c Msg: AX881781 has passed ResetOnResume test
+      053b00a2: ndt_1c Msg: Reseting the network adapter AX881781 2 time
+      053b00a2: ndt_1c Msg: Waiting to receive NDIS_STATUS_RESET_END notification on the miniport adapter AX881781
+      053b00a2: ndt_1c Msg: Received NDIS_STATUS_RESET_END notification on AX881781
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its Packet Filter settings.
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its multicast addresses list.
+      053b00a2: ndt_1c Msg: AX881781 has passed ResetOnResume test
+      053b00a2: ndt_1c Msg: Reseting the network adapter AX881781 3 time
+      053b00a2: ndt_1c Msg: Waiting to receive NDIS_STATUS_RESET_END notification on the miniport adapter AX881781
+      053b00a2: ndt_1c Msg: Received NDIS_STATUS_RESET_END notification on AX881781
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its Packet Filter settings.
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its multicast addresses list.
+      053b00a2: ndt_1c Msg: AX881781 has passed ResetOnResume test
+      053b00a2: ndt_1c Msg: Reseting the network adapter AX881781 4 time
+      053b00a2: ndt_1c Msg: Waiting to receive NDIS_STATUS_RESET_END notification on the miniport adapter AX881781
+      053b00a2: ndt_1c Msg: Received NDIS_STATUS_RESET_END notification on AX881781
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its Packet Filter settings.
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its multicast addresses list.
+      053b00a2: ndt_1c Msg: AX881781 has passed ResetOnResume test
+      053b00a2: ndt_1c Msg: Reseting the network adapter AX881781 5 time
+      053b00a2: ndt_1c Msg: Waiting to receive NDIS_STATUS_RESET_END notification on the miniport adapter AX881781
+      053b00a2: ndt_1c Msg: Received NDIS_STATUS_RESET_END notification on AX881781
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its Packet Filter settings.
+      053b00a2: ndt_1c Msg: AX881781 has restored/retained its multicast addresses list.
+      053b00a2: ndt_1c Msg: AX881781 has passed ResetOnResume test
+   END TEST: "1c_ResetOnResume", PASSED, Time=2.086
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   *** TEST COMPLETED
+   ***
+   *** Test Name:      1c_ResetOnResume
+   *** Test ID:        13
+   *** Library Path:   \ndt_1c.dll
+   *** Command Line:   -t AX881781
+   *** Kernel Mode:    No
+   *** Result:         Passed
+   *** Random Seed:    22341
+   *** Thread Count:   1
+   *** Execution Time: 0:00:02.086
+   *** ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   </TESTCASE RESULT="PASSED">
+END GROUP: ndt_1c.dll
+*** ==================================================================
+*** MEMORY INFO
+***
+*** Memory Total:    26,353,664 bytes
+*** Memory Used:     13,234,176 bytes
+*** Memory Free:     13,119,488 bytes
+***
+*** Kernel Used:        585,728 bytes
+*** Water Mark:           2,987 pages
+***
+*** Store Total:     26,279,936 bytes
+*** Store Used:         524,288 bytes
+*** Store Free:      25,755,648 bytes
+*** ==================================================================
+
+*** ==================================================================
+*** SUITE SUMMARY
+***
+*** Passed:         11
+*** Failed:          0
+*** Skipped:         2
+*** Aborted:         0
+*** -------- ---------
+*** Total:          13
+***
+*** Cumulative Test Execution Time: 0:11:11.810
+*** Total Tux Suite Execution Time: 0:11:15.556
+*** CPU Idle Time:                  0:09:35.917
+*** ==================================================================
+</TESTGROUP>
+@@@@@@0
+
